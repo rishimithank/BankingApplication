@@ -62,7 +62,7 @@ function AccountDetailsPage() {
     const amount = parseInt(loanAmount, 10);
 
     if (isNaN(amount) || amount <= 0 || amount > 10000000) {
-      setErrorMessage('Please enter a valid loan amount (between 1 and 10,000,000)');
+      setErrorMessage('Please enter  valid loan amount (between 1 and 10,000,000)');
       return;
     }
 
